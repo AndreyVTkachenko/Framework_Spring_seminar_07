@@ -1,0 +1,18 @@
+# spring.application.name=timesheet
+# spring.datasource.url=jdbc:h2:mem:test
+# spring.datasource.username=sa
+# spring.datasource.password=
+
+spring:
+    application:
+        name: timesheet
+    datasource:
+        # url: jdbc:postgresql://localhost:5432/timesheets_db
+        url: jdbc:h2:mem:test
+        username: sa
+        password:
+        driver-class-name: org.h2.Driver
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: validate
